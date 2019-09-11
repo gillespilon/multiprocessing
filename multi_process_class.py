@@ -2,6 +2,23 @@
 
 '''
 With process class.
+
+The process class is most useful for a small number of processes where each
+process would take a longer time to execute.
+
+Place the functions and calculations that are done on each list item in its own
+function that will take a list item as one of its arguments.
+
+Create a new process for each list item.
+
+Trigger each process in one call.
+
+Keep track of these processes by making a list and adding each process to it.
+
+After creating all of the processes, take the separate outpuot of each CPU and
+join them into a single list.
+
+The process class sends code to a processor as soon as the process is started.
 '''
 
 
